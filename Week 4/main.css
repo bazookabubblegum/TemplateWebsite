@@ -1,3 +1,5 @@
+
+
 body,
 html{
 	margin:0;
@@ -11,30 +13,117 @@ html{
 	height:1024px;*/
 	height:100vh;
 	background-size: cover;
+	background-position: center;
 }
 .logo{
 	display:inline-block;
-	margin:0 20px;
+	margin:30px 40px;
 }
 
 .logo img{
 	height:40px; 
+	border-radius:80px
+
 }
 
 .logo h2{
 	display:inline-block;
 	font-size:18px;
+	font-family:'Anton', sans-serif;
+	color:#46032C;
 }
 .nav{
 	display:inline-block;
 	position:absolute;
-	right:0px;
+	right:20px;
+	margin-top:50px;
 }
 .nav li{
 	display:inline-block;
-	padding: 10px 25px;
+	padding: 10px 5px;
+	line-height:10px;
+	font-size:14px;
+	text-shadow:1.5px 0px 1.5px;
 }
 
 .nav a{
 	text-decoration:none;
+	font-family:'Sacramento', sans-serif;
+	font-size:20px;
+
+}
+.heroContent *{
+	color:#FFF;
+	margin:0;
+
+}
+.heroContent p{
+	padding-right:80px;
+	font-size:30px;
+	text-align: center;
+	font-family:'Sacramento', cursive;
+	letter-spacing:2.5px;
+}
+.heroContent button{
+	color:purple;
+	margin-top:30px;
+	border:none;
+	padding:5px;
+	border-radius: 80px;
+	height:50px;
+	font-family:'Sacramento', cursive;
+	font-size:20px;
+	text-shadow:2px 0px 2px;
+}
+.heroContent h1{
+	padding-left:80px;
+	text-align: center;
+	font-family: 'Anton', sans-serif;
+	letter-spacing:3px;
+}
+
+.gallerySection{
+	height:700px;
+	width:50%;
+
+}
+/*Gallery Section*/
+.galleryBox{
+	text-align:center;
+	background-color: #2D0C2D;
+	/*border:1px black solid;*/
+	width:80%;
+	margin:0 auto;
+	margin-top:20px;
+	margin: -100px auto 0;
+	border-radius:10px;
+	padding-top:50px;
+	box-shadow: 0px 0px 50px 0px;
+
+}
+.pictureWrapper{
+	height:500px;
+	width:95%;
+	/*background-color:#FFF;*/
+	margin:30px auto 50px;
+}
+
+.galleryBox h1{
+	margin-top:30px;
+	font-family:'Sacramento', cursive;
+	font-size:30px;
+	color:#FFF;
+}
+
+.galleryBox h2{
+	font-family:'Anton', sans-serif;
+	color:	#FFB7BB;
+	letter-spacing:2px;
+}
+
+.pictureWrapper .column {
+	background-color:#8d024f;
+	height:100%;
+	width:30%;
+	display:inline-block;
 }
